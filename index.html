@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Clima.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperatura</title>
+</head>
+<body>
+    <div class="box">
+        <img src="Clima.png" width="100">
+        <h1>Previsão do Tempo</h1>
+        <input type="text" id="cidade" placeholder="Pesquisar lugares">
+    
+        <button onclick="verifica()">Verificar</button>
+        <br>
+        <div class="class-main">
+            <output><h4 id="tempMax"></h4></output>
+            <output><h4 id="tempMin"></h4></output>
+            <output><h4 id="senc_termica"></h4></output>
+            <output><h4 id="umidade"></h4></output>
+        </div>
+    
+    <script src="temp.js"></script>
+</body>
+</html>
